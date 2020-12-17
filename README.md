@@ -1,20 +1,20 @@
-These questions are used to assess a candidates level of comfort with programming and some computer science topics. 
+These questions are used to assess a candidate's level of comfort with programming and some computer science topics. 
 If a candidate is unable to complete all the questions, this does not mean they have failed to qualify for the DevOps program. 
-This will be decided in an interview. Candidates should be able to talk about the decisions they've made in when solving
+This will be decided in an interview. Candidates should be able to talk about the decisions they've made when solving
 these problems. It is strongly preferred that these solutions are provided in Python, as it is the most popular DevOps language
-and is the language the tests are written in, but if a candidate would like to recreate the test in another language and 
-can explain their solution to the interviewer, this is acceptable. Ideally, pytest question<n>.py will be called after submission
-and all test will pass. 
+and is the language that the pytests are written in. However, if a candidate would like to recreate the test in another language and 
+can explain their solution to the interviewer, this is acceptable. Ideally, 'pytest question<n>.py' will be run in 
+ terminal after submission and all tests will pass. 
 
 There is no time limit. Please try your best and let us know how you find it. 
 
 
-1. Write a function that selects the maximum value from an array of intergers. Do not use any built-in max functions.
+1. Write a function that selects the maximum value from an array of integers. Do not use any built-in max functions.
 select_max([1, 2, 3, 4]) -> 4
 
 
-2. Write a function that takes an array of integers and centers all zeroes in the array. All non-zero integers should keep 
-their relative position. For the purpose of this question, center means floor(length of array / 2). 
+2. Write a function that takes an array of integers and places the zeroes in the center of the array. All non-zero integers 
+should keep their relative position. For the purpose of this question, center is defined as floor(length of array / 2). 
 center_zeros([1, 1, 3, 0, 6, 0]) -> [1, 1, 0, 0, 3, 6]
 
 
@@ -22,7 +22,8 @@ center_zeros([1, 1, 3, 0, 6, 0]) -> [1, 1, 0, 0, 3, 6]
 array, minimize the number of problems a student needs to solve based on the criteria below:
 
 a. They must always solve the first problem, index i = 0
-b. After solving the ith problem, they have a choice: solve the next problem (i +1) or skip ahead and work the (i+2) problem.
+b. After solving the i-th problem, they have a choice: solve the next problem (i + 1) or skip ahead and work the (i + 2)
+ problem.
 c. Students must keep solving problems until the difference between the maximum points and the minimum points questions
  solved so far meets or exceeds a specified threshold
 d. If a student cannot meet or exceed the threshold, they must work through all the problems. 
