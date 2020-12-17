@@ -22,10 +22,13 @@ center_zeros([1, 1, 3, 0, 6, 0]) -> [1, 1, 0, 0, 3, 6]
 array, minimize the number of problems a student needs to solve based on the criteria below:
 
 a. They must always solve the first problem, index i = 0
+
 b. After solving the i-th problem, they have a choice: solve the next problem (i + 1) or skip ahead and work the (i + 2)
  problem.
+
 c. Students must keep solving problems until the difference between the maximum points and the minimum points questions
  solved so far meets or exceeds a specified threshold
+
 d. If a student cannot meet or exceed the threshold, they must work through all the problems. 
 
 Return the minimum number of problems a student needs to solve. 
