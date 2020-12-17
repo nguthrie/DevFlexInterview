@@ -10,16 +10,16 @@ Please fork this repository before starting the questions. There is no time limi
 Please see the test cases for more examples of input to output mappings for each question. 
 
 
-1. Write a function that selects the maximum value from an array of integers. Do not use any built-in max functions.
+1. (Warm-up) Write a function that selects the maximum value from an array of integers. Do not use any built-in max functions.
 select_max([1, 2, 3, 4]) -> 4
 
 
-2. Write a function that takes an array of integers and places the zeroes in the center of the array. All non-zero integers 
+2. (Medium) Write a function that takes an array of integers and places the zeroes in the center of the array. All non-zero integers 
 should keep their relative position. For the purpose of this question, center is defined as floor(length of array / 2). 
 center_zeros([1, 1, 3, 0, 6, 0]) -> [1, 1, 0, 0, 3, 6]
 
 
-3. Students have been assigned a series of math problems that have points associated with them. Given a sorted points 
+3. (Challenging) Students have been assigned a series of math problems that have points associated with them. Given a sorted points 
 array, minimize the number of problems a student needs to solve based on the criteria below:
 
         a. They must always solve the first problem, index i = 0
