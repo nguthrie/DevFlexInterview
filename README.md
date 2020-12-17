@@ -1,12 +1,12 @@
 These questions are used to assess a candidate's level of comfort with programming and some computer science topics. 
-If a candidate is unable to complete all the questions, this does not mean they have failed to qualify for the DevOps program. 
-This will be decided in an interview. Candidates should be able to talk about the decisions they've made when solving
+If a candidate is unable to complete all the questions, this does not mean they have failed to qualify for the advanced 
+DevOps program. This will be decided in an interview. Candidates should be able to talk about the decisions they've made when solving
 these problems. It is strongly preferred that these solutions are provided in Python, as it is the most popular DevOps language
 and is the language that the pytests are written in. However, if a candidate would like to recreate the test in another language and 
 can explain their solution to the interviewer, this is acceptable. Ideally, 'pytest question<n>.py' will be run in 
  terminal after submission and all tests will pass. 
 
-There is no time limit. Please try your best and let us know how you find it. 
+Please fork this repository before starting the questions. There is no time limit. 
 
 
 1. Write a function that selects the maximum value from an array of integers. Do not use any built-in max functions.
@@ -40,6 +40,12 @@ Explanation: if a student solves points[0] = 1, points[2] = 3, the difference be
 minimum_points(4, [1, 2, 3, 5, 8]) -> 3
 If the threshold is 4, again it takes 3 problems solving problems 1, 3 and 4 where points[3] - points[0] = 5 - 1 = 1.
  This meets the threshold, so the student must solve at least 3 problems. Return 3
+
+4. Docker installation
+Install Docker and download the image jcdemo/flaskapp.
+Run the container in detached mode and and expose port 5000. 
+Visit port 5000 on your local computer. 
+Put the output in a new text file and add it to this Github directory.  
 
 
 Please see the test cases for more examples of input to output mappings for each question. 
