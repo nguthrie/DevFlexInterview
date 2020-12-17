@@ -45,7 +45,7 @@ array, minimize the number of problems a student needs to solve based on the cri
 4. Docker installation
 
 Install Docker and download the image jcdemo/flaskapp.
-Run the container in detached modeand expose port 5000. 
+Run the container in detached mode and expose port 5000. 
 Visit port 5000 on your local computer. 
 Put the output in a new text file and add it to this Github directory.  
 
