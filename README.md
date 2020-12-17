@@ -7,6 +7,7 @@ can explain their solution to the interviewer, this is acceptable. Ideally, 'pyt
  terminal after submission and all tests will pass. 
 
 Please fork this repository before starting the questions. There is no time limit. 
+Please see the test cases for more examples of input to output mappings for each question. 
 
 
 1. Write a function that selects the maximum value from an array of integers. Do not use any built-in max functions.
@@ -47,7 +48,5 @@ Run the container in detached mode and and expose port 5000.
 Visit port 5000 on your local computer. 
 Put the output in a new text file and add it to this Github directory.  
 
-
-Please see the test cases for more examples of input to output mappings for each question. 
 
 Good luck!
