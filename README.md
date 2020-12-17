@@ -3,7 +3,7 @@ If a candidate is unable to complete all the questions, this does not mean they 
 DevOps program. This will be decided in an interview. Candidates should be able to talk about the decisions they've made when solving
 these problems. It is strongly preferred that these solutions are provided in Python, as it is the most popular DevOps language
 and is the language that the pytests are written in. However, if a candidate would like to recreate the test in another language and 
-can explain their solution to the interviewer, this is acceptable. Ideally, 'pytest question<n>.py' will be run in 
+can explain their solution to the interviewer, this is acceptable. Ideally, 'pytest questionN.py' will be run in 
  terminal after submission and all tests will pass. 
 
 Please fork this repository before starting the questions. There is no time limit. 
