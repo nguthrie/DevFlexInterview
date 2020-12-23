@@ -1,7 +1,8 @@
-def center_zeros(array,n):
+def center_zeros(array):
    
     new = []
     zeros = []
+    n=middle_element(array)
    
     
     for i in range(len(array)):
@@ -25,11 +26,7 @@ def middle_element(list):
   return middle-1  
 
 if __name__ == "__main__":
-    # write your debug code here
-   # Driver code 
-#center_zeros([1, 1, 3, 0, 6, 0]) -> [1, 1, 0, 0, 3, 6]
-    arr2 = [1, 1, 3, 0, 6, 0] 
-    m = middle_element(arr2)
-    print(center_zeros(arr2,m))
+  assert center_zeros([0, 3, 1]) == [3, 0, 1]
+  print(center_zeros([0, 3, 1]))
 
 

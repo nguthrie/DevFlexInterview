@@ -27,16 +27,15 @@ def minPoint(arr, l, h):
 
 
 if __name__ == "__main__":
-    # write your debug code here
     arr =[1, 2, 3]
-    n = len(arr)
-    arr2=[1, 2, 3, 5, 8]
-    m = len(arr2)
-    print('Minimum points',
+n = len(arr)
+arr2=[1, 2, 3, 5, 8]
+m = len(arr2)
+print('Minimum points',
      'is', minPoint(arr,0, n-1))
-    print('Minimum points',
+print('Minimum points',
      'is', minPoint(arr2,0, m-1))
-    arr3 =[1,2,3,4,5]
-    y = len(arr2)
-    print('Minimum points',
+arr3 =[1,2,3,4,5]
+y = len(arr2)
+print('Minimum points',
      'is', minPoint(arr3,0, y-1))
