@@ -6,7 +6,7 @@ and is the language that the pytests are written in. However, if a candidate wou
 can explain their solution to the interviewer, this is acceptable. Ideally, 'pytest questionN.py' will be run in 
  terminal after submission and all tests will pass. 
 
-Please fork this repository before starting the questions. There is no time limit. 
+Please fork this repository before starting the questions. Please return this assignment by the end of the day. 
 Please see the test cases for more examples of input to output mappings for each question. 
 
 
