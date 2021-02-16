@@ -1,0 +1,31 @@
+femog008yahoo@femog008yahoo:~$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+femog008yahoo@femog008yahoo:~$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+femog008yahoo@femog008yahoo:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+femog008yahoo@femog008yahoo:~$ 
+femog008yahoo@femog008yahoo:~$ 
+femog008yahoo@femog008yahoo:~$ 
+femog008yahoo@femog008yahoo:~$ 
+femog008yahoo@femog008yahoo:~$ docker pull jcdemo/flaskapp
+Using default tag: latest
+latest: Pulling from jcdemo/flaskapp
+4fe2ade4980c: Pull complete 
+7cf6a1d62200: Pull complete 
+3be976674be6: Pull complete 
+c52373c891c4: Pull complete 
+afe67e449426: Pull complete 
+d9e2e1856554: Pull complete 
+e3acd3a38189: Pull complete 
+Digest: sha256:8dd21e8822e08414c0fe2531c22b575a33da3964e51d39cfa27e7b68520056af
+Status: Downloaded newer image for jcdemo/flaskapp:latest
+femog008yahoo@femog008yahoo:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+jcdemo/flaskapp     latest              4f7a2cc79052        2 years ago         88.7MB
+femog008yahoo@femog008yahoo:~$ docker run -d -p 5000:5000 --name becloudready jcdemo/flaskapp
+552d8fe2e911352f82e94d16c28be967520e76c0d84aa2a8aa5baa674be9c838
+femog008yahoo@femog008yahoo:~$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                CREATED             STATUS              PORTS                    NAMES
+552d8fe2e911        jcdemo/flaskapp     "python /src/app.py"   47 seconds ago      Up 44 seconds       0.0.0.0:5000->5000/tcp   becloudready
+femog008yahoo@femog008yahoo:~$ 
